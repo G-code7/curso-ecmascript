@@ -23,9 +23,6 @@ let lorem2 = `Esta es una frase epica
 console.log(lorem);
 console.log(lorem2);
 
-
-
-
 // ejemplo: Uso en emails o mensajes
 // Supongamos que quieres enviar un email automático de bienvenida. Mira la diferencia:
 
