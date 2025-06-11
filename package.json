@@ -1,0 +1,16 @@
+{
+  "name": "curso-ecmascript",
+  "version": "1.0.0",
+  "description": "curso practico de ecma script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "node"
+  ],
+  "author": "Gustavo Liendo <gust.20220\u001bqgmail.com>",
+  "license": "MIT"
+}
