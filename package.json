@@ -12,5 +12,6 @@
     "node"
   ],
   "author": "Gustavo Liendo <gust.20220\u001bqgmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type":  "module"
 }
