@@ -53,5 +53,3 @@ const ids = idGenerator();
 console.log(ids.next().value); // ID-1
 console.log(ids.next().value); // ID-2
 console.log(ids.next().value); // ID-3
-
-
