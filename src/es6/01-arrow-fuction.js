@@ -73,3 +73,25 @@ const cuadrados = nums.map(function(n) {
 const cuadrados2 = nums.map(n => n * n);
 
 console.log(cuadrados2); // → [1, 4, 9, 25, 64, 169]
+
+// 2. ✅ Funciones de orden superior
+const operaciones = {
+  suma: (a, b) => a + b,
+  resta: (a, b) => a - b,
+  multiplicacion: (a, b) => a * b,
+  division: (a, b) => a / b
+};
+
+// Uso de las operaciones
+const a = 10;
+const b = 5;
+
+console.log(operaciones.suma(a, b)); // → 15
+console.log(operaciones.resta(a, b)); // → 5
+console.log(operaciones.multiplicacion(a, b)); // → 50
+console.log(operaciones.division(a, b)); // → 2
+
+// 3. ✅ Funciones anónimas en eventos
+document.getElementById('miBoton').addEventListener('click', () => {
+  console.log('Botón presionado');
+});

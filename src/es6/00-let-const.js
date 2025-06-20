@@ -52,3 +52,25 @@ const tienda = 'La Bodega de Juan';
 var producto = 'Café';
 producto = 'Té';
 console.log(`Producto actual: ${producto}`); // → Té
+
+// Ejemplo de uso de 'let' y 'const' en un bucle
+for (let i = 0; i < 3; i++) {
+    const mensaje = `Iteración ${i + 1}`;
+    console.log(mensaje); // → Iteración 1, Iteración 2, Iteración 3
+}
+// console.log(mensaje); // ❌ Error: mensaje no está definido fuera del bloque
+// Ejemplo de uso de 'var' en un bucle
+for (var j = 0; j < 3; j++) {
+    var mensajeVar = `Iteración ${j + 1}`;
+    console.log(mensajeVar); // → Iteración 1, Iteración 2, Iteración 3
+} 
+console.log(mensajeVar); // → Iteración 3 (mensajeVar está definido fuera del bloque)
+// Ejemplo de uso de 'let' y 'const' en un objeto
+const persona = {
+    nombre: 'Ana',
+    edad: 30,
+    pais: 'VE'
+};  
+// persona = { nombre: 'Luis' }; // ❌ Error: no se puede reasignar un objeto constante
+persona.nombre = 'Luis'; // ✅ Se puede modificar una propiedad del objeto
+console.log(persona); // → { nombre: 'Luis', edad: 30, pais: 'VE' }
