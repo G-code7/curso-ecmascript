@@ -13,5 +13,8 @@
   ],
   "author": "Gustavo Liendo <gust.20220\u001bqgmail.com>",
   "license": "MIT",
-  "type":  "module"
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
