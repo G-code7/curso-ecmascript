@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Saludo dinámico con UX</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    #loading { display: none; margin-top: 1rem; color: #555; }
+  </style>
+</head>
+<body>
+  <button id="btn-start">Ingresar nombre</button>
+
+  <div id="form-container" style="display: none; margin-top: 1rem;">
+    <input type="text" id="name-input" placeholder="Escribe tu nombre" />
+    <button id="submit-name">Saludar</button>
+  </div>
+
+  <div id="loading">⏳ Procesando saludo...</div>
+
+  <script type="module" src="./06-dinamic-import.js"></script>
+</body>
+</html>
