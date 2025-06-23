@@ -74,19 +74,12 @@ Este documento resume las principales características introducidas en las versi
 ## ES13 – Nuevas formas de acceder a arreglos
 
 - `.at(index)`: Permite acceder a elementos por índice positivo o negativo (`array.at(-1)` devuelve el último elemento).
-
+- `Top-level await`
 ---
 
 ## ES14 & ES15 – Coming soon 🚧
 
-Ya están disponibles los borradores de ECMAScript 2023 y 2024 con características como:
-
-- Top-level await
-- Temporal API
-- Pattern Matching (propuesta)
-- Decorators nativos
-
-> ¡Estaré actualizando esta sección en cuanto complete los próximos cursos!
+> ¡Estaré actualizando esta sección!
 
 ---
 
